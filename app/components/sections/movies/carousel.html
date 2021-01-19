@@ -1,0 +1,72 @@
+<section id="movies" class="mt-4 lg:mt-20">
+  <div class="w-full">
+    <div class="w-full lg:w-235 mx-auto">
+      <nav class="w-full relative h-12 mb-2">
+        <div
+          class="nav nav-tabs tab tab-movie absolute inline-block whitespace-nowrap overflow-x-auto top-0 left-1/2 transform -translate-x-1/2"
+          id="nav-tab"
+          role="tablist"
+        >
+          <a
+            class="nav-item nav-link tab-item active mx-4 font-semibold inline-block transition-all duration-150 text-xl hover:text-2xl"
+            id="dang-chieu-tab"
+            data-toggle="tab"
+            href="#dang-chieu"
+            role="tab"
+            aria-controls="dang-chieu"
+            aria-selected="true"
+            >Đang chiếu</a
+          >
+          <a
+            class="nav-item nav-link tab-item mx-4 font-semibold inline-block transition-all duration-150 text-xl hover:text-2xl"
+            id="sap-chieu-tab"
+            data-toggle="tab"
+            href="#sap-chieu"
+            role="tab"
+            aria-controls="sap-chieu"
+            aria-selected="false"
+            >Sắp chiếu</a
+          >
+        </div>
+      </nav>
+      <div class="w-full tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade hidden show active opacity-0 transition-all duration-75 w-full"
+          id="dang-chieu"
+          role="tabpanel"
+          aria-labelledby="dang-chieu-tab"
+        >
+          <div class="owl-carousel py-6 w-full relative">
+            <div class="w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+            <div class="hidden lg:block w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+            <div class="hidden lg:block w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade hidden opacity-0 transition-all duration-75 w-full"
+          id="sap-chieu"
+          role="tabpanel"
+          aria-labelledby="sap-chieu-tab"
+        >
+          <div class="owl-carousel py-6 w-full relative">
+            <div class="w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+            <div class="hidden lg:block w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+            <div class="hidden lg:block w-full">
+              <div include-html="sections/movies/carousel-item.html"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
