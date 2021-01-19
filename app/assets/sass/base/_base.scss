@@ -1,6 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+
+  &::-webkit-scrollbar {
+    @apply w-1 h-1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gray-500;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-gray-300;
+  }
 }
 
 html {

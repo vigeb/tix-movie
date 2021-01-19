@@ -40,10 +40,18 @@ module.exports = {
       fontSize: {
         '2xs': '0.5rem',
         '3xs': '0.25rem',
+        '32': '8rem',
       },
       zIndex: {
         'full': '999999'
-      }
+      },
+      lineHeight: {
+        32: '8rem',
+      },
+      gradientColorStops: theme => ({
+        ...theme('colors'),
+        'gray-500-95': 'rgba(107, 114, 128, 0.95)',
+      }),
     },
   },
   variants: {

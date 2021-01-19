@@ -1,0 +1,7 @@
+@layer utilities {
+  @variants responsive {
+    .clip-1\/4 {
+      clip: rect(0, 0.5em, 0.5em, 0);
+    }
+  }
+}

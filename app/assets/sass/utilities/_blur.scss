@@ -1,0 +1,7 @@
+@layer utilities {
+  @variants responsive {
+    .blur-2 {
+      filter: blur(0.5rem);
+    }
+  }
+}

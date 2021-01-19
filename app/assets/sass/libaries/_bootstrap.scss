@@ -66,6 +66,12 @@
       @apply text-2xl text-red-500;
     }
   }
+
+  &.tab-schedule .tab-item {
+    &.active {
+      @apply text-red-500;
+    }
+  }
 }
 
 .tab-content {
