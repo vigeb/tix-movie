@@ -37,6 +37,9 @@ module.exports = {
         '8': '2rem',
         '40': '10rem',
       },
+      maxheight: {
+        '235': '58.75rem',
+      },
       fontSize: {
         '2xs': '0.5rem',
         '3xs': '0.25rem',
