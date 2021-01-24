@@ -17,3 +17,19 @@ $ cd tix-assignment
 ```
 
 ### Bước 3: Contact me.
+
+## Dành cho mentor
+
+Ko cần nói nhiều.
+
+Tự clone về và chịu khó run command line
+
+```
+$ npm run dev
+```
+
+## Công nghệ sử dụng
+
+- Tailwindcss
+- Bootstrap (chỉ xài js của bootstrap k xài css)
+- Webpack setup cơ bản (sass-loader, autoprefixer,...)
